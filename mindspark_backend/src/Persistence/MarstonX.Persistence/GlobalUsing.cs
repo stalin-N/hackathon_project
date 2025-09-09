@@ -1,0 +1,11 @@
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Configuration;
+global using MarstonX.Application.IRepository.Sql;
+global using MarstonX.Persistence.Repositories;
+global using MarstonX.Persistence.Data;
+global using System.Data.SqlClient;
+global using MongoDB.Driver;
+global using System.Data;
+global using Dapper;
+global using Microsoft.Extensions.Options;
+global using MarstonX.Domain.Entities;
